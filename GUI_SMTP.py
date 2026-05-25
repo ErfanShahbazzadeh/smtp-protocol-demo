@@ -240,7 +240,7 @@ class SMTPClientGUI:
         self.connect_btn.configure(state=tk.DISABLED, text="Connected ✓", bg=self.fg_green)
         self.send_btn.configure(state=tk.NORMAL)
         self.update_status("Connected to server")
-        self.log("✓ Successfully connected and authenticated!")
+        self.log("Successfully connected and authenticated!")
     
     def on_connection_failed(self, error_msg):
         """Called when connection fails"""
@@ -332,7 +332,7 @@ class SMTPClientGUI:
         self.send_btn.configure(state=tk.DISABLED, text="Sent ✓", bg=self.fg_green)
         self.connect_btn.configure(state=tk.NORMAL, text="Connect", bg=self.fg_green_dark)
         self.update_status("Email sent successfully!")
-        self.log("✓ Email sent successfully!")
+        self.log("Email sent successfully!")
         messagebox.showinfo("Success", "Email sent successfully!")
     
     def on_send_failed(self, error_msg):
