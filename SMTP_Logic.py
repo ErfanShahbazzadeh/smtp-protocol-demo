@@ -96,4 +96,4 @@ def test_smtp_connection(server, port=25, timeout=10):
     except Exception as e:
         print(f"[✗] Connection failed: {e}")
 
-test_smtp_connection("mail.uma.ac.ir")
+test_smtp_connection("Your mail server (e.g., smtp.example.com)", 25)
