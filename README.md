@@ -3,7 +3,8 @@ Here's a simple README for your SMTP email client:
 ```markdown
 # SMTP Email Client
 
-A Python-based SMTP email client with a graphical user interface (GUI) built using Tkinter. This application allows you to connect to an SMTP server and send emails directly using the SMTP protocol.
+A Python-based SMTP email client with a graphical user interface (GUI) built using Tkinter.
+This application allows you to connect to an SMTP server and send emails directly using the SMTP protocol.
 
 ---
 
