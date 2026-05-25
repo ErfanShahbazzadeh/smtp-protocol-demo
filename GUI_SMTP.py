@@ -75,7 +75,7 @@ class SMTPClientGUI:
                                      relief=tk.FLAT,
                                      font=("Consolas", 10))
         self.server_entry.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=(0, 10))
-        self.server_entry.insert(0, "mail.uma.ac.ir")
+        self.server_entry.insert(0, "Your mail server (e.g., smtp.example.com)")
         
         ttk.Label(server_frame, text="Port:").pack(side=tk.LEFT, padx=(0, 5))
         self.port_entry = tk.Entry(server_frame, 
@@ -237,7 +237,7 @@ class SMTPClientGUI:
     
     def on_connected(self):
         """Called when connection is successful"""
-        self.connect_btn.configure(state=tk.DISABLED, text="Connected ✓", bg=self.fg_green)
+        self.connect_btn.configure(state=tk.DISABLED, text="Connected.", bg=self.fg_green)
         self.send_btn.configure(state=tk.NORMAL)
         self.update_status("Connected to server")
         self.log("Successfully connected and authenticated!")
@@ -329,7 +329,7 @@ class SMTPClientGUI:
     
     def on_send_success(self):
         """Called when email is sent successfully"""
-        self.send_btn.configure(state=tk.DISABLED, text="Sent ✓", bg=self.fg_green)
+        self.send_btn.configure(state=tk.DISABLED, text="Sent.", bg=self.fg_green)
         self.connect_btn.configure(state=tk.NORMAL, text="Connect", bg=self.fg_green_dark)
         self.update_status("Email sent successfully!")
         self.log("Email sent successfully!")
