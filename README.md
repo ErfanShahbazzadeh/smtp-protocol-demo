@@ -78,6 +78,37 @@ This tool follows a standard SMTP session flow:
 5.  **Termination**: Ends the message with a solitary `.` and closes the session with `QUIT`.
 
 ---
+## Screenshot
+
+```
+┌──────────────────────────────────────────────┐
+│         ✉ SMTP Email Client                 │
+│                                              │
+│  Server: [  mail server  ] Port: [25]        │
+│  [Connect]                                   │
+│  ─────────────────────────────────────────   │
+│  From:    [sender@example.com          ]     │
+│  To:      [recipient@example.com       ]     │
+│  Subject: [Test Email                  ]     │
+│                                              │
+│  Message Body:                               │
+│  ┌──────────────────────────────────────┐    │
+│  │ Hello,                               │    │
+│  │ This is a test email.                │    │
+│  │                                      │    │
+│  └──────────────────────────────────────┘    │
+│                                              │
+│  [Send Email]                                │
+│  Status: Connected                           │
+│                                              │
+│  Connection Log:                             │
+│  ┌──────────────────────────────────────┐    │
+│  │ 220 mail server ESMTP Ready          │    │
+│  │ ✓ Email sent successfully!           │    │
+│  └──────────────────────────────────────┘    │
+└──────────────────────────────────────────────┘
+```
+---
 
 ## ⚠️ Important Notes
 
@@ -90,4 +121,3 @@ This tool follows a standard SMTP session flow:
 ## 📄 License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-```
