@@ -10,7 +10,7 @@ This application allows you to connect to an SMTP server and send emails directl
 
 ## Features
 
-- Connect to any SMTP server (default: `mail.uma.ac.ir`)
+- Connect to any SMTP server
 - Send emails with custom **From**, **To**, **Subject**, and **Body**
 - Real-time SMTP conversation log
 - Dark theme UI with green accents
@@ -44,7 +44,7 @@ No external libraries are required.
 
 ## Usage
 
-1. **Enter server details** — SMTP server address and port (default: `mail.uma.ac.ir:25`)
+1. **Enter server details** — SMTP server address and port 
 2. **Click "Connect"** — connects to the SMTP server
 3. **Fill in email details**:
    - **From** — sender's email address
@@ -80,9 +80,9 @@ This client implements basic SMTP commands:
 
 ```
 ┌──────────────────────────────────────────────┐
-│         ✉ SMTP Email Client                  │
+│         ✉ SMTP Email Client                 │
 │                                              │
-│  Server: [mail.uma.ac.ir    ] Port: [25]     │
+│  Server: [  mail server  ] Port: [25]        │
 │  [Connect]                                   │
 │  ─────────────────────────────────────────   │
 │  From:    [sender@example.com          ]     │
@@ -101,7 +101,7 @@ This client implements basic SMTP commands:
 │                                              │
 │  Connection Log:                             │
 │  ┌──────────────────────────────────────┐    │
-│  │ 220 mail.uma.ac.ir ESMTP Ready       │    │
+│  │ 220 mail server ESMTP Ready          │    │
 │  │ ✓ Email sent successfully!           │    │
 │  └──────────────────────────────────────┘    │
 └──────────────────────────────────────────────┘
