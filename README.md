@@ -1,4 +1,3 @@
-```markdown
 # SMTP Protocol Demo
 
 A Python-based educational tool demonstrating the Simple Mail Transfer Protocol (SMTP). It features a graphical user interface (GUI) built with Tkinter, allowing users to connect to an SMTP server and send emails by manually interacting with the protocol.
