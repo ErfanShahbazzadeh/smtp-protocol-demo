@@ -2,6 +2,7 @@
 
 A Python-based educational tool demonstrating the Simple Mail Transfer Protocol (SMTP). It features a graphical user interface (GUI) built with Tkinter, allowing users to connect to an SMTP server and send emails by manually interacting with the protocol.
 
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://python.org)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
 ---
