@@ -115,6 +115,13 @@ This tool follows a standard SMTP session flow:
 - **Educational Purpose**: This project is designed for learning the SMTP protocol. It implements a basic, unauthenticated SMTP session.
 - **Server Authentication**: Many modern servers (like Gmail) require authentication (AUTH LOGIN). This tool works best with local or dedicated test servers.
 - **Network Restrictions**: ISPs often block outbound traffic on port 25 to prevent spam. If you can't connect, try an alternative port like 587, or use a local test server.
+---
+
+## 👤 Author
+
+**Erfan Shahbazzadeh**
+- GitHub: [@ErfanShahbazzadeh](https://github.com/ErfanShahbazzadeh)
+
 
 ---
 
